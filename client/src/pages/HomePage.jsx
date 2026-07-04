@@ -43,8 +43,6 @@ const features = [
   },
 ];
 
-
-
 export default function HomePage() {
   return (
     <div className="space-y-16">
@@ -90,15 +88,6 @@ export default function HomePage() {
               </svg>
             </Link>
           </div>
-
-          <dl className="mt-10 flex flex-wrap gap-x-10 gap-y-4 border-t border-white/15 pt-6">
-            {stats.map((stat) => (
-              <div key={stat.label}>
-                <dt className="text-2xl font-bold">{stat.value}</dt>
-                <dd className="text-sm text-sky-100">{stat.label}</dd>
-              </div>
-            ))}
-          </dl>
         </div>
       </section>
 
