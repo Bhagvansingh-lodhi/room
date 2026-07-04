@@ -4,7 +4,7 @@ import axios from 'axios';
 export const AuthContext = createContext();
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL,
+  baseURL: https://room-pyzf.onrender.com/api,
   withCredentials: true,
 });
 
