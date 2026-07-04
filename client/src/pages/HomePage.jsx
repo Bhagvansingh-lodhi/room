@@ -43,11 +43,7 @@ const features = [
   },
 ];
 
-const stats = [
-  { value: '2,400+', label: 'Verified rooms' },
-  { value: '60+', label: 'Cities covered' },
-  { value: '4.8/5', label: 'Average rating' },
-];
+
 
 export default function HomePage() {
   return (
